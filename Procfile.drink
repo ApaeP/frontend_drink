@@ -1,0 +1,2 @@
+web: ruby -run -e httpd . -p 8000
+sass: sass --watch ./challenges/styles/style.scss:./challenges/styles/watch/style.css
